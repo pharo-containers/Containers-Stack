@@ -48,10 +48,6 @@ CTGrowableStackTest >> testInternalCapacityDoubling [
 { #category : 'tests' }
 CTGrowableStackTest >> testInternalGrowth [
 
-	| initialCapacity |
-	
-	initialCapacity := stack size. 
-	
 	1 to: 20 do: [ :i | stack push: i ].
 	
 	self assert: stack size equals: 20.
