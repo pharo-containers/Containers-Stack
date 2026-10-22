@@ -160,7 +160,6 @@ CTStack >> removeAll [
 
 { #category : 'accessing' }
 CTStack >> search: anObject [
-
 	"Return the 1-based position of anObject from the top of the stack.
 	Return -1 if the object is not found.
 	The top element is at position 1."
@@ -183,7 +182,6 @@ CTStack >> size [
 
 { #category : 'accessing' }
 CTStack >> top [
-
 	"Return the top element without removing it"
 	
 	self isEmpty ifTrue: [ self error: 'Stack is empty' ].

@@ -1,3 +1,6 @@
+"
+I'm a stack tracking the maximum of its depth. 
+"
 Class {
 	#name : 'CTTrackedGrowableStack',
 	#superclass : 'CTGrowableStack',

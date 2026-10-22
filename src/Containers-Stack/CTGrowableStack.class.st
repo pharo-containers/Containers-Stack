@@ -1,3 +1,6 @@
+"
+I'm a simple stack.
+"
 Class {
 	#name : 'CTGrowableStack',
 	#superclass : 'Object',
@@ -7,6 +10,12 @@ Class {
 	#category : 'Containers-Stack',
 	#package : 'Containers-Stack'
 }
+
+{ #category : 'enumerating' }
+CTGrowableStack >> do: aBlock [ 
+
+	elements do: aBlock
+]
 
 { #category : 'initialization' }
 CTGrowableStack >> initialize [
